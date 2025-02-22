@@ -1,0 +1,144 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Base Styles */
+html {
+  font-size: 62.5%; /* 1rem = 10px */
+  font-family: "Gill Sans", sans-serif;
+  color: #212529;
+  background: #fff4e6;
+  width: 79.4rem;
+  height: 112.3rem;
+  max-width: 120rem;
+  scroll-behavior: smooth;
+  margin: 0 auto;
+}
+
+p {
+  font-size: 2rem;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+  text-align: start;
+}
+
+li {
+  padding: 0.2rem;
+}
+
+/* Layout */
+.container {
+  margin: 0;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 4rem;
+}
+
+.personalInfo__1,
+.personalInfo__2 {
+  display: flex;
+  flex-direction: column;
+  font-size: 1.7rem;
+  gap: 1rem;
+  align-items: self-start;
+}
+
+.personalInfo__1 h3 {
+  font-size: 2.7rem;
+}
+
+.commonTextSize {
+  padding-top: 0.6rem;
+}
+
+.experience h3,
+.skills h3,
+.education h3 {
+  font-size: 2.5rem;
+}
+
+/* Sections */
+.proficiency {
+  display: flex;
+  width: 100%;
+  gap: 1rem;
+  justify-content: space-evenly;
+  padding-top: 1rem;
+}
+
+.experience {
+  width: 100%;
+}
+
+.skills {
+  width: 50%;
+}
+
+.sectionTitle::before {
+  content: "";
+  border-left: 0.3rem solid #ff922b;
+  padding-right: 1rem;
+}
+
+.experienceContent {
+  padding-top: 0.2rem;
+}
+
+.project-title {
+  font-weight: 600;
+  padding-top: 0.1rem;
+}
+
+.projectBreakPoints p {
+  padding: 0;
+}
+
+.yourGithubLink {
+  padding-top: 0.2rem;
+}
+
+.projectBreakPoints p::before {
+  content: "\2192";
+  color: #ff922b;
+  margin-right: 0.5rem;
+}
+
+/* Skill List */
+.skillList li {
+  display: inline-flex;
+  align-items: baseline;
+  gap: 1rem;
+  padding: 1rem;
+  width: 100%;
+}
+
+/* Progress Bar */
+.progress-container {
+  color: #212529;
+}
+
+.progress-container::before {
+  content: "\2605 \2605 \2605 \2605 \2605";
+  color: #ff922b;
+  padding-right: 1rem;
+}
+
+/* Education */
+.education {
+  padding-top: 0.5rem;
+}

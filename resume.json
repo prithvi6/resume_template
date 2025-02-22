@@ -1,0 +1,132 @@
+{
+  "yourName": "John Doe",
+  "yourEmail": "johndoe@example.com",
+  "yourLinkedIn": "https://www.linkedin.com/in/johndoe",
+  "yourGithub": "https://github.com/johndoe",
+  "jobRole": "Full Stack Developer",
+  "aboutSelf": "Passionate developer with expertise in JavaScript, React, and Node.js. Experienced in building scalable web applications and optimizing performance.",
+  "proficiency": [
+    {
+      "skillName": "HTML",
+      "skillScore": "Intermediate"
+    },
+    {
+      "skillName": "CSS",
+      "skillScore": "Intermediate"
+    },
+    {
+      "skillName": "JavaScript",
+      "skillScore": "Intermediate"
+    },
+    {
+      "skillName": "React.js",
+      "skillScore": "Intermediate"
+    },
+    {
+      "skillName": "Redux",
+      "skillScore": "Beginner"
+    },
+    {
+      "skillName": "Node.js",
+      "skillScore": "Beginner"
+    },
+    {
+      "skillName": "Express.js",
+      "skillScore": "Beginner"
+    },
+    {
+      "skillName": "MongoDB",
+      "skillScore": "Intermediate"
+    },
+    {
+      "skillName": "Tailwind CSS",
+      "skillScore": "Intermediate"
+    }
+  ],
+  "experience": [
+    {
+      "companyName": "Tech Solutions Inc.",
+      "yearFromTo": "2021 - Present",
+      "projects": [
+        {
+          "title": "E-commerce Platform",
+          "breakPoints": [
+            "Developed a scalable e-commerce solution using React and Node.js",
+            "Implemented secure payment integrations and user authentication",
+            "Optimized database queries for faster product search",
+            "Led a team of 5 developers in Agile workflow"
+          ]
+        },
+        {
+          "title": "Internal CRM System",
+          "breakPoints": [
+            "Built a CRM dashboard with React and Redux",
+            "Integrated real-time notifications and analytics",
+            "Automated report generation using Node.js",
+            "Ensured data security and compliance standards"
+          ]
+        }
+      ]
+    },
+    {
+      "companyName": "Innovate Labs",
+      "yearFromTo": "2019 - 2021",
+      "projects": [
+        {
+          "title": "Healthcare Management App",
+          "breakPoints": [
+            "Designed and implemented RESTful APIs with Node.js",
+            "Developed UI components in React.js for patient data visualization",
+            "Optimized database performance with indexing",
+            "Integrated third-party appointment scheduling API"
+          ]
+        },
+        {
+          "title": "E-commerce Platform",
+          "breakPoints": [
+            "Developed a scalable e-commerce solution using React and Node.js",
+            "Implemented secure payment integrations and user authentication",
+            "Optimized database queries for faster product search",
+            "Led a team of 5 developers in Agile workflow"
+          ]
+        }
+      ]
+    },
+    {
+      "companyName": "Tech Solutions Inc.",
+      "yearFromTo": "2021 - Present",
+      "projects": [
+        {
+          "title": "E-commerce Platform",
+          "breakPoints": [
+            "Developed a scalable e-commerce solution using React and Node.js",
+            "Implemented secure payment integrations and user authentication",
+            "Optimized database queries for faster product search",
+            "Led a team of 5 developers in Agile workflow"
+          ]
+        },
+        {
+          "title": "Internal CRM System",
+          "breakPoints": [
+            "Built a CRM dashboard with React and Redux",
+            "Integrated real-time notifications and analytics",
+            "Automated report generation using Node.js",
+            "Ensured data security and compliance standards"
+          ]
+        }
+      ]
+    }
+  ],
+  "education": [
+    {
+      "batch": "2015 - 2019",
+      "eduTitle": "Bachelor of Computer Science",
+      "instituteName": "XYZ University"
+    },
+    {
+      "batch": "2013 - 2015",
+      "eduTitle": "Higher Secondary Education",
+      "instituteName": "ABC High School"
+    }
+  ]
+}
