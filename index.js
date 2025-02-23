@@ -245,4 +245,53 @@ const resume = async () => {
   }
 };
 
+function downloadPDF(selector) {
+  const element = document.querySelector(selector);
+  if (!element) {
+    alert("Element not found!");
+    return;
+  }
+
+  const content = element.cloneNode(true);
+  const styles = Array.from(document.styleSheets)
+    .map((sheet) => {
+      try {
+        return Array.from(sheet.cssRules)
+          .map((rule) => rule.cssText)
+          .join("\n");
+      } catch (e) {
+        return "";
+      }
+    })
+    .join("\n");
+
+  const iframe = document.createElement("iframe");
+  iframe.style.position = "absolute";
+  iframe.style.width = "0px";
+  iframe.style.height = "0px";
+  iframe.style.border = "none";
+  document.body.appendChild(iframe);
+
+  const doc = iframe.contentDocument || iframe.contentWindow.document;
+  doc.open();
+  doc.write(`
+    <html>
+      <head>
+        <title>Download</title>
+        <style>${styles}</style>
+      </head>
+      <body>
+        ${content.outerHTML}
+      </body>
+    </html>
+  `);
+  doc.close();
+
+  setTimeout(() => {
+    iframe.contentWindow.focus();
+    iframe.contentWindow.print();
+    setTimeout(() => document.body.removeChild(iframe), 1000);
+  }, 500);
+}
+
 resume();

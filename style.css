@@ -20,7 +20,7 @@ html {
 }
 
 p {
-  font-size: 2rem;
+  font-size: 1.8rem;
 }
 
 a {
@@ -36,8 +36,18 @@ ul {
 li {
   padding: 0.2rem;
 }
+button {
+  margin: 0;
+  border: none;
+  right: 3rem;
+  top: 2rem;
+  position: absolute;
+  padding: 1.5rem 3rem;
+  background-color: #f76707;
+  color: #fff4e6;
+  border-radius: 1rem;
+}
 
-/* Layout */
 .container {
   margin: 0;
 }
